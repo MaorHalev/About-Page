@@ -1,3 +1,79 @@
-body{
-    background-color: blue;
+body
+{
+    
+    margin: 0;
+    text-align: center;
+   font-family: 'Merriweather', serif;
+}
+h1
+{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Parisienne', cursive;
+}
+h2
+{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3
+{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: #11999E;
+}
+.top-container
+{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container
+{
+
+}
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.bottom-container
+{
+
+}
+.profile-pic
+{
+    border-radius: 50%;
+}
+.dev-skill-pic
+{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.tech-skill-pic
+{
+
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.bottom-cloud
+{
+    position:absolute;
+    left:300px;
+    bottom: 300px;
+}
+.top-cloud
+{
+    position: absolute;
+    right:300px;
+    top:50px;
 }
